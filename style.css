@@ -1,0 +1,114 @@
+*{
+    background-color: rgb(197, 228, 236);
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+}
+.header1 {
+    flex: 3;
+    text-align: left;
+    display: flex;
+}
+.logo {
+    flex: 1;
+}
+.search-con {
+    flex: 4;
+    padding-top: 7px;
+}
+.search-bar {
+    padding: 10px;
+    border-radius: 20px;
+}
+.search-bar:hover {
+    background-color: rgb(146, 187, 192);
+    box-shadow: 5px 5px 9px rgb(122, 158, 167);
+    transition: 0.4s;
+}
+.search-btn {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+.search-btn:hover {
+    background-color: rgb(146, 187, 192);
+    box-shadow: 5px 5px 9px rgb(122, 158, 167);
+    color: aliceblue;
+    transition: 0.4s;
+}
+.header2 {
+    flex: 5;
+    text-align: center;
+    padding: 10px;
+}
+.header3 {
+    flex: 2;
+    text-align: right;
+    padding: 10px;
+}
+.login-btn {
+    padding: 10px;
+    border-radius: 10px;
+}
+.login-btn:hover {
+    background-color: rgb(146, 187, 192);
+    box-shadow: 5px 5px 9px rgb(122, 158, 167); 
+    transition: 0.4s;
+    color: aliceblue;
+}
+.signup-btn {
+    padding: 10px;
+    border-radius: 10px;
+}
+.signup-btn:hover {
+    background-color: rgb(146, 187, 192);
+    box-shadow: 5px 5px 9px rgb(122, 158, 167);
+    color: aliceblue;
+    transition: 0.4s;
+}
+main {
+    display: flex;
+}
+.s1 {
+    flex: 1;
+    position: sticky;
+}
+details {
+    border-bottom: 2px solid rgb(54, 116, 110);
+    padding: 5px;
+    border-radius: 10px;
+}
+summary {
+    text-decoration: 1px dashed underline;
+}
+summary:hover {
+    color: rgb(44, 95, 28);
+    transition: 0.2s;
+}
+details:hover {
+    background-color: rgba(92, 160, 151, 0.589);
+    transition: 0.2s;
+}
+.s2 {
+    flex: 3;
+    text-align: justify;
+    padding: 15px;
+}
+.s2 p {
+    font-size: 20px;
+}
+#img1 {
+    height: 300px;
+    width: 500px;
+    place-items: center;
+    display: block;
+    margin: 0 auto;
+}
+.s3 {
+    flex: 1;
+    border: 2px solid rgb(54, 116, 110);
+    background: radial-gradient(circle, rgb(130, 130, 175),rgb(49, 119, 104));
+}
